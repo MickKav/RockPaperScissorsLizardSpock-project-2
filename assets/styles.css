@@ -54,6 +54,7 @@ h1 {
     justify-content: center;
     margin-top: 50px;
 }
+
 .choice {
     background-color: black;
     border: 1px solid white;
@@ -64,6 +65,28 @@ h1 {
     margin: 100px 20px;
     cursor: pointer;
     text-decoration: none;
+}
+
+#rock {
+    background-image: url(/assets/images/rock.png);
+    background-size: 150px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#paper{
+    background-image: url(/assets/images/paper.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#scissors {
+    background-image: url(/assets/images/scissors.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #result-notice {
@@ -80,8 +103,7 @@ h1 {
 #result {
     display: flex;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.3);
-    background-color: black;
+    background: rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     width: 50%;
     border: 1px solid;
@@ -90,7 +112,7 @@ h1 {
 }
 
 #result-image {
-    border: 1px solid black;
+    background-color: black;
     border: 1px solid black;
     margin: 20px 40px;
     width: 40%;
@@ -98,7 +120,7 @@ h1 {
 }
 
 
-#win-lose{
+#win-lose {
     border: 1px solid black;
     width: 40%;
     height: 80%;
@@ -106,4 +128,9 @@ h1 {
     float: right;
     margin: 20px;
     text-align: center;
+}
+
+#win-lose-text {
+    margin: auto;
+    line-height: 150px;
 }
