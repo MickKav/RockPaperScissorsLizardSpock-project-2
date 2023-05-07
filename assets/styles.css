@@ -40,6 +40,7 @@ h1 {
     border: 1px solid;
     border-radius: 60px 20px;
     width: 60%;
+    text-shadow: 1px 0.5px 2px white;
 }
 
 #options {
