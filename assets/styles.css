@@ -78,7 +78,10 @@ h1 {
 }
 
 #result {
+    display: flex;
+    padding: 10px;
     background: rgba(0, 0, 0, 0.3);
+    background-color: black;
     margin: 0 auto;
     width: 50%;
     border: 1px solid;
@@ -88,8 +91,19 @@ h1 {
 
 #result-image {
     border: 1px solid black;
+    border: 1px solid black;
+    margin: 20px 40px;
+    width: 40%;
+    height: 80%;
 }
 
+
 #win-lose{
+    border: 1px solid black;
+    width: 40%;
+    height: 80%;
+    position: relative;
+    float: right;
+    margin: 20px;
     text-align: center;
 }
