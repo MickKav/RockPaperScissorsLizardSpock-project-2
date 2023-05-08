@@ -114,9 +114,15 @@ h1 {
 #result-image {
     background-color: black;
     border: 1px solid black;
-    margin: 20px 40px;
-    width: 40%;
-    height: 80%;
+    margin: 20px auto;
+    width: 10%;
+    height: 10px;
+
+    background-image: url(assets/images/thumbsup.png);
+    background-size: 150px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 
