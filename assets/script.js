@@ -114,7 +114,7 @@ scissorsButton.addEventListener('click', () => {
     if (result === 'You win!') {
     document.querySelector('#result-image').innerHTML = '<img src="/assets/thumbsup.png">';
     } else if (result === 'You lose!') {
-    document.querySelector('#result-image').innerHTML = '<img src="/assets/thumbsdown.png">';
+    document.querySelector('#result-image').innerHTML = '<img src="/assets/rock.png">';
     } else {
     document.querySelector('#result-image').innerHTML = '<img src="/assets/paper.png">';
     }
