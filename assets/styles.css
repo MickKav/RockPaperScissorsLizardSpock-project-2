@@ -27,14 +27,15 @@ h1 {
 #result-notice-text {
     margin: 1px auto;
     text-shadow: 1px 0.5px 3px white;
-    line-height: 40px;
+    line-height: 79px;
+    font-size: 32px;
 }
 
 #container {
     background: rgba(0, 0, 0, 0.3);
-    background-image: url(/assets/images/);
+    background-image: url(/assets/images/container-bg.jpg);
     margin: 40px auto 0;
-    height: 60%;
+    height: 59%;
     width: 80%;
     border: 1px solid black;
     border-radius: 10px;
@@ -67,6 +68,31 @@ h1 {
     text-decoration: none;
 }
 
+#scoreboard {
+    display: flex;
+    border: 1px solid #000;
+    align-items: center;
+    line-height: 4;
+    margin-top: 5px;
+}
+
+.score {
+    margin: 0 auto;
+    font-size: 22px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid;
+    margin: 5px auto;
+    height: 90px;
+    padding: 0 23px;
+}
+
+#user-score {
+    border-radius: 20px;
+}
+
+#computer-score {
+    border-radius: 60px 20px;
+}
 #rock {
     background-image: url(/assets/images/rock.png);
     background-size: 150px 100px;
@@ -91,11 +117,11 @@ h1 {
 
 #result-notice {
     background: rgba(0, 0, 0, 0.5);
-    margin: 0 auto;
-    width: 20%;
+    margin: 0 20px 0 auto;
+    width: 200px;
     border: 1px solid;
     border-radius: 20px 60px;
-    height: 45px;
+    height: 90px;
     font-size: 35px;
     
 }
@@ -104,6 +130,7 @@ h1 {
     display: flex;
     padding: 10px;
     background: rgba(0, 0, 0, 0.2);
+
     margin: 0 auto;
     width: 50%;
     border: 1px solid;
@@ -115,28 +142,19 @@ h1 {
     background-color: black;
     border: 1px solid black;
     margin: 20px auto;
-    width: 10%;
-    height: 10px;
-
-    background-image: url(assets/images/thumbsup.png);
-    background-size: 150px 100px;
+    width: 40%;
+    height: 160px;
+    background-image: url(/assets/images/thumbsup.png);
+    background-size: 121px 100px;
     background-repeat: no-repeat;
     background-position: center;
     
 }
 
 
-#win-lose {
-    border: 1px solid black;
-    width: 40%;
-    height: 80%;
-    position: relative;
-    float: right;
-    margin: 20px;
-    text-align: center;
-}
-
-#win-lose-text {
-    margin: auto;
-    line-height: 150px;
+#reset {
+    border-radius: 61%;
+    width: 133px;
+    height: 121px;
+    margin: 50px;
 }
